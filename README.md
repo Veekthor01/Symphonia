@@ -43,9 +43,7 @@ The development server will start at http://localhost:3000. You can open this UR
 
 7. You can view your list of playlists in the "Your Playlists" section.
 
-### License
-
-#### Licensed by MIT.
+### Licensed by MIT.
 
 ##### N.B: Symphonia requires a Spotify account to use.
 ##### Check About Section for Live Site of the app.
