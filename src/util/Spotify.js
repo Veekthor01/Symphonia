@@ -1,5 +1,5 @@
 const clientId = '6124783df7da465f842a76d0cde4301a'; // Insert client ID here.
-const redirectUri = 'http://localhost:3000'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
+const redirectUri = 'https://symphonia.vercel.app/'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken;
 
 const Spotify = {
