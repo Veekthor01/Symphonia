@@ -1,0 +1,89 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: .77rem 0;
+  background-color: #6c41ec;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+}
+/* background-color: #0C090A;*/
+h1 .highlight {
+  color: #010c3f
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+}
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-image: url('./pexels.jpg');
+  background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.ExistingPlaylists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.UserPlaylists {
+  width: 50%;
+  overflow-y: scroll;
+  width: 50%;
+  max-height: 950px;
+  padding: .88rem;
+  background-color: rgba(22, 25, 37, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+}
+.user {
+  background: transparent;
+  border-bottom: 1px solid #6f6f6f;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.user-list li{
+padding: 5px;
+margin-bottom: 8px;
+}
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 425px) {
+  h1 {
+    font-size: 1.70rem;
+  }
+  h2 {
+    font-size: 1.35rem;
+  }
+  .UserPlaylists {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+}
